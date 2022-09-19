@@ -131,7 +131,6 @@ margin-bottom: 90px;
     color: #fff;
     background: rgb(66, 60, 60);
     text-align: center;
-    opacity: 0.1;
     margin-bottom: 50px;
 }
 
@@ -140,7 +139,7 @@ margin-bottom: 90px;
     max-height: 50px;
     font-size: 24px;
     font-weight: 900;
-    visibility: hidden;
+    opacity: 0;
 }
 
 .inline {
@@ -150,4 +149,12 @@ margin-bottom: 90px;
 .laptop {
     max-width: 200px;
     border-radius: 20px;
+}
+
+.link.none {
+    display: none;
+}
+
+.hidden {
+    visibility: hidden;
 }
