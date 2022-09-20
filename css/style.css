@@ -10,7 +10,7 @@ body {
 }
 
 header img {
-   max-width: 810px;
+   max-width: 100%;
    margin-bottom: 60px;
 }
 
